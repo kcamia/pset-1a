@@ -1,0 +1,61 @@
+* {
+  margin: 30px;
+}
+
+body {
+  background-color: rgb(245, 212, 223);
+}
+
+h1 {
+  color: rgb(66, 150, 219);
+  font-family: unset;
+  font-size: 100px;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 30px;
+}
+
+th, td {
+  padding: 50px;
+  text-align: center;
+  font-weight: normal;
+}
+
+img {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: black;
+}
+
+#subtitle {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+#no {
+  border-style: none;
+}
+
+.fun-facts {
+  font-size: 30px;
+  font-style: oblique;
+}
+
+.bullet-points {
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.bt {
+  font-size: 18px;
+  font-family: sans-serif;
+}
