@@ -3,25 +3,28 @@
 }
 
 body {
-  background-color: rgb(245, 212, 223);
+  background-color: rgb(255, 179, 179);
 }
 
 h1 {
-  color: rgb(66, 150, 219);
+  color: rgb(0, 68, 204);
   font-family: unset;
   font-size: 100px;
   text-align: center;
+  text-shadow: 3px 2px grey;
 }
 
 div {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 h2 {
   text-align: center;
   font-size: 60px;
   padding-top: 30px;
+  padding-bottom: 50px;
+  text-decoration: underline;
 }
 
 th, td {
@@ -41,6 +44,11 @@ p {
   font-size: 20px
 }
 
+#footer {
+  font-size: 15px;
+  padding-top: 30px;
+}
+
 #subtitle {
   font-size: 50px;
   text-decoration: underline;
@@ -51,8 +59,20 @@ p {
 }
 
 #frontpage {
-  font-size: 40px;
-  font-family: fantasy;
+  font-size: 30px;
+  font-style: italic;
+}
+
+#column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+#row {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .fun-facts {
